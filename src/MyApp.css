@@ -1,0 +1,49 @@
+.app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.checkbox-section {
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    padding: 20px;
+    width: 300px;
+}
+
+.header-section,
+.page-list-section {
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 8px;
+}
+
+.label-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.page-list {
+    list-style-type: none;
+    padding: 8px 0;
+}
+
+.page-list-item {
+    padding: 8px 0;
+}
+
+.button-done {
+    background-color: #ffc107;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 0;
+    width: 100%;
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
